@@ -251,44 +251,6 @@ h4 {
   line-height: 1.2142857143;
 }
 
-p,
-ul li,
-ol li {
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-ul li::before {
-  content: "";
-  display: inline-block;
-  margin: 0px 0.75rem 0px 0px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 0.5rem;
-          flex: 0 0 0.5rem;
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: #0d99ff;
-}
-
-ol {
-  padding: 0px 0px 0px 1.125rem;
-}
-
-ol li {
-  list-style-position: outside;
-}
-
 .header {
   z-index: 2;
 }
@@ -1810,6 +1772,44 @@ ol li {
   margin: 6.25rem 0px 0px 0px;
 }
 
+.article p,
+.article ul li,
+.article ol li {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.article ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.article ul li::before {
+  content: "";
+  display: inline-block;
+  margin: 0px 0.75rem 0px 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0.5rem;
+          flex: 0 0 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #0d99ff;
+}
+
+.article ol {
+  padding: 0px 0px 0px 1.125rem;
+}
+
+.article ol li {
+  list-style-position: outside;
+}
+
 .article__img-block {
   margin: 0px 0px 1.25rem 0px;
   border-radius: 2.0625rem;
@@ -2079,12 +2079,6 @@ ol li {
     font-size: 1.5rem;
   }
 
-  p,
-  ul li,
-  ol li {
-    font-size: 0.875rem;
-  }
-
   .footer {
     margin: 5rem 0px 0px 0px;
   }
@@ -2279,6 +2273,12 @@ ol li {
     margin: 5rem 0px 0px 0px;
   }
 
+  .article p,
+  .article ul li,
+  .article ol li {
+    font-size: 0.875rem;
+  }
+
   .article__img-block {
     padding: 22.875rem 0.625rem 1.5rem;
   }
@@ -2468,12 +2468,6 @@ ol li {
 }
 
 @media (max-width: 46.5em) {
-  p,
-  ul li,
-  ol li {
-    font-size: 0.75rem;
-  }
-
   .hero h1 {
     font-size: 2.625rem;
   }
@@ -2572,6 +2566,12 @@ ol li {
 
   .review-block__btn {
     font-size: 1.125rem;
+  }
+
+  .article p,
+  .article ul li,
+  .article ol li {
+    font-size: 0.75rem;
   }
 
   .article__img-block {
