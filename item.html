@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Главная</title>
+	<title>Название экскурсии</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.min.css?_v=20250203095351">
@@ -11,6 +11,7 @@
 
 <body>
 	<div class="wrapper">
+		<div class="blackout"></div>
 		<header class="header">
 			<div class="header__container">
 				<div class="header__wrpper">
@@ -122,84 +123,388 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="hero">
-				<div class="hero__container">
-					<h1>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit
-					</h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretium
-					</p>
-					<form action="#" class="hero__search">
-						<input autocomplete="off" type="text" class="hero__search-inp" name="search" data-error data-required placeholder="Куда собираетесь в путешествие?">
-						<button class="hero__search-btn">Найти</button>
-					</form>
-				</div>
-			</section>
 			<div class="page__container">
-				<section class="percs">
-					<div class="percs__perc">
-						<img src="img/icons/perc/1.svg" alt="Icon">
-						<p class="percs__title">Официально зарегистрированный туроператор</p>
-						<p class="percs__text">Деятельность которого застрахована на 500000</p>
-					</div>
-					<div class="percs__perc">
-						<img src="img/icons/perc/2.svg" alt="Icon">
-						<p class="percs__title">Тысячи довольных детей</p>
-						<p class="percs__text">Ежегодно проводим сотни туров и организуем отдых для тысяч детей</p>
-					</div>
-					<div class="percs__perc">
-						<img src="img/icons/perc/3.svg" alt="Icon">
-						<p class="percs__title">Большой опыт работы</p>
-						<p class="percs__text">Организуем детский отдых уже более 10 лет</p>
-					</div>
-				</section>
-				<section class="tours-cards">
-					<a href="#" class="tours-cards__card">
-						<p class="tours-cards__title">
-							Однодневные <br> экскурсии
-						</p>
-						<div class="tours-cards__img-block">
-							<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="img"></picture>
+				<div class="breadcrumbs">
+					<ul>
+						<li>
+							<a href="index.html">Главная</a>
+						</li>
+						<li>
+							<a href="#">Многодневные экскурсии</a>
+						</li>
+						<li>
+							<a href="#">Санкт-Петербург</a>
+						</li>
+						<li>Название экскурсии</li>
+					</ul>
+				</div>
+				<section class="item">
+					<div class="item__main">
+						<div class="item__sliders">
+							<div class="item__main-slider">
+								<div class="item__slider">
+									<div class="item__swiper">
+										<div class="item__slide">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item__thumbs-slider">
+								<div class="item__slider-thumb">
+									<div class="item__swiper">
+										<div class="item__slide-thumb">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide-thumb">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide-thumb">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide-thumb">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide-thumb">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+										<div class="item__slide-thumb">
+											<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
+										</div>
+									</div>
+								</div>
+								<div class="item__slide-buttons">
+									<button class="item__slide-button-prev item__slide-btn _icon-long-arrow"></button>
+									<button class="item__slide-button-next item__slide-btn _icon-long-arrow"></button>
+								</div>
+							</div>
 						</div>
-						<p class="tours-cards__number">36 туров</p>
-					</a>
-					<a href="#" class="tours-cards__card">
-						<p class="tours-cards__title">
-							Многодневные экскурсии
-						</p>
-						<div class="tours-cards__img-block">
-							<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="img"></picture>
+						<div class="item__info-main">
+							<h1>Название экскурсии</h1>
+							<div class="item__info-block">
+								<img src="img/icons/info/1.svg" alt="icon">
+								<div class="item__info-text-block">
+									<span>Длительность</span>
+									<p>1 день</p>
+								</div>
+							</div>
+							<div class="item__info-block">
+								<img src="img/icons/info/2.svg" alt="icon">
+								<div class="item__info-text-block">
+									<span>от МКАД</span>
+									<p>710 км (отправление с Ленинградского вокзала)</p>
+								</div>
+							</div>
+							<div class="item__info-block">
+								<img src="img/icons/info/3.svg" alt="icon">
+								<div class="item__info-text-block">
+									<span>город</span>
+									<p>Санкт_петербург</p>
+								</div>
+							</div>
+							<p class="item__price">от 2.000 Р</p>
+							<div class="item__buttons">
+								<a href="#" data-popup="#book" class="item__btn item__btn--blue">Забронировать</a>
+								<a href="#" class="item__btn item__btn--gray">Скачать программу</a>
+							</div>
 						</div>
-						<p class="tours-cards__number">36 экскурсий</p>
-					</a>
-					<a href="#" class="tours-cards__card">
-						<p class="tours-cards__title">
-							Прием в Москве
-						</p>
-						<div class="tours-cards__img-block">
-							<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="img"></picture>
-						</div>
-						<p class="tours-cards__number">36 туров</p>
-					</a>
-					<a href="#" class="tours-cards__card">
-						<p class="tours-cards__title">
-							Выпускной
-						</p>
-						<div class="tours-cards__img-block">
-							<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="img"></picture>
-						</div>
-						<p class="tours-cards__number">36 туров</p>
-					</a>
-				</section>
-				<section class="about">
-					<div class="about__img-block">
-						<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="Img"></picture>
 					</div>
-					<div class="about__text-block">
+					<div class="item__block">
+						<h2>Рекомендации</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus
+							pretiumLorem ipsum dolor sit
+							amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit
+							amet, consectetur
+							adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur
+							adipiscing elit. Sed
+							sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+							sit amet quam id
+							libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id
+							libero tempus
+							pretiumLorem ipsum dolor sit amet, consectet
+						</p>
+					</div>
+					<div class="item__block">
+						<h2>Программа</h2>
+						<div data-spollers class="item__spoiler">
+							<div class="item__spoiler-block">
+								<button type="button" data-spoller class="item__spoiler-title _icon-arrow">День 1</button>
+								<div class="item__spoiler-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet
+									</p>
+								</div>
+							</div>
+							<div class="item__spoiler-block">
+								<button type="button" data-spoller class="item__spoiler-title _icon-arrow">День 2</button>
+								<div class="item__spoiler-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet
+									</p>
+								</div>
+							</div>
+							<div class="item__spoiler-block">
+								<button type="button" data-spoller class="item__spoiler-title _icon-arrow">День 3</button>
+								<div class="item__spoiler-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero
+										tempus pretiumLorem ipsum dolor sit
+										amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum
+										dolor sit amet, consectetur
+										adipiscing elit. Sed sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet,
+										consectetur adipiscing elit. Sed
+										sit amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing
+										elit. Sed sit amet quam id
+										libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+										quam id libero tempus
+										pretiumLorem ipsum dolor sit amet, consectet
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item__block">
+						<div class="item__block-top-wrapper">
+							<h2>Стоимость</h2>
+							<span>на 1 человека, в рублях</span>
+						</div>
+						<div class="item__table">
+							<table>
+								<tr>
+									<td>Группа*</td>
+									<td>10+1</td>
+									<td>15+1</td>
+									<td>20+2</td>
+									<td class="item__small-hidden">30+3</td>
+									<td class="item__small-hidden">40+4</td>
+								</tr>
+								<tr>
+									<td>Стоимость</td>
+									<td>11.800</td>
+									<td>8.720</td>
+									<td>8.050</td>
+									<td class="item__small-hidden">6.700</td>
+									<td class="item__small-hidden">6.250</td>
+								</tr>
+							</table>
+						</div>
+						<div class="item__table item__table--small">
+							<table>
+								<tr>
+									<td>Группа*</td>
+									<td>30+3</td>
+									<td>40+4</td>
+								</tr>
+								<tr>
+									<td>Стоимость</td>
+									<td>6.700</td>
+									<td>6.250</td>
+								</tr>
+							</table>
+						</div>
+						<p class="item__blue-text">Цена актуальна с 01.04.2023</p>
+						<p class="item__subtext">* Количество человек в группе + сопровождающие (бесплатно)</p>
+					</div>
+					<div class="item__block item__block--double">
+						<div class="item__list-block">
+							<p class="item__list-title">Что включено в стоимость</p>
+							<ul>
+								<li>Питание - полупансион (1 завтрак + 1 обед)</li>
+								<li>Сопровождение экскурсоводом на всех экскурсиях</li>
+								<li>Экскурсионная программа с входными билетами в музеи</li>
+								<li>Автобусное обслуживание (12 часов)</li>
+							</ul>
+						</div>
+						<div class="item__list-block">
+							<p class="item__list-title">Что НЕ включено в стоимость</p>
+							<ul>
+								<li>Ж/д билеты по маршруту Москва - Санкт-Петербург - Москва</li>
+								<li>Питание в кафе: ужин (от 500 руб.)</li>
+								<li>Страховка</li>
+								<li>Дополнительные экскурсионные и развлекательные программы</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item__block">
 						<h2>
-							О компании
+							Ж/Д проезд. Рекомендуемые поезда
 						</h2>
+						<div class="item__list-block">
+							<p class="item__list-title">Туда</p>
+							<ul>
+								<li>
+									<span>
+										<span>Поезд «Сапсан», № 752 А.</span> Отправление в 5:45, прибытие в 9:35. Время в пути 3
+										ч.
+										50 мин. Цена
+										билетов от 2.882 руб.
+									</span>
+								</li>
+								<li><span>
+										<span>Поезд «Сапсан», № 754 А.</span> Отправление в 5:55, прибытие в 9:56. Время в пути 4
+										ч.
+										01 мин. Цена билетов от 2.760 руб.
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="item__list-block">
+							<p class="item__list-title">Обратно</p>
+							<ul>
+								<li>
+									<span>
+										<span>Поезд «Сапсан», № 752 А.</span> Отправление в 5:45, прибытие в 9:35. Время в пути 3
+										ч.
+										50 мин. Цена
+										билетов от 2.882 руб.
+									</span>
+								</li>
+								<li><span>
+										<span>Поезд «Сапсан», № 754 А.</span> Отправление в 5:55, прибытие в 9:56. Время в пути 4
+										ч.
+										01 мин. Цена билетов от 2.760 руб.
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item__block">
+						<h2>Оформление билетов</h2>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus
+								pretiumLorem ipsum dolor sit
+								amet, consectetur adipiscing elit. Sed sit amet quam</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus
+								pretiumLorem ipsum dolor sit
+								amet, consectetur adipiscing elit. Sed sit amet quam Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Sed sit
+								amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+								sit amet quam</li>
+							<li>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus
+								pretiumLorem ipsum dolor sit
+								amet, consectetur
+							</li>
+							<li>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus
+								pretiumLorem ipsum dolor sit
+								amet, consectetur adipiscing elit. Sed sit amet quam Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Sed sit
+								amet quam id libero tempus pretiumLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+								sit amet quam
+							</li>
+						</ul>
+					</div>
+					<div class="item__block">
+						<h2>Школьные туры в Санкт-Петербург на один день</h2>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id libero tempus
 							pretiumLorem ipsum dolor sit
@@ -226,11 +531,10 @@
 							libero tempus
 							pretiumLorem ipsum dolor sit amet, consectet
 						</p>
-						<a href="#" class="_icon-long-arrow">Подробнее</a>
 					</div>
 				</section>
 				<section class="popular">
-					<h2>Популярные экскурсии</h2>
+					<h2>Вам может понравиться</h2>
 					<div class="popular__main">
 						<div class="popular__card card">
 							<div class="card__img-block">
@@ -278,325 +582,8 @@
 						</div>
 					</div>
 				</section>
-				<section class="official">
-					<h2>Все официально и застраховано</h2>
-					<div class="official__main">
-						<div class="official__card">
-							<div class="official__img">
-								<picture><source srcset="img/logos/1.webp" type="image/webp"><img src="img/logos/1.png" alt="МЭР РФ"></picture>
-							</div>
-							<div class="official__text-block">
-								<p class="official__number-text">Номер в реестре</p>
-								<p class="official__number">827405</p>
-							</div>
-						</div>
-						<div class="official__card">
-							<div class="official__img">
-								<picture><source srcset="img/logos/2.webp" type="image/webp"><img src="img/logos/2.png" alt="РСТ"></picture>
-							</div>
-							<div class="official__text-block">
-								<p class="official__text">
-									Входим в РСТ (Российский союз туриндустрии) Член Комитета по детскому туризму РСТ
-								</p>
-							</div>
-						</div>
-						<div class="official__card">
-							<div class="official__img">
-								<picture><source srcset="img/logos/1.webp" type="image/webp"><img src="img/logos/1.png" alt="МЭР РФ"></picture>
-							</div>
-							<div class="official__text-block">
-								<p class="official__number-text">Номер в реестре</p>
-								<p class="official__number">827405</p>
-							</div>
-						</div>
-						<div class="official__card">
-							<div class="official__img">
-								<picture><source srcset="img/logos/2.webp" type="image/webp"><img src="img/logos/2.png" alt="РСТ"></picture>
-							</div>
-							<div class="official__text-block">
-								<p class="official__text">
-									Входим в РСТ (Российский союз туриндустрии) Член Комитета по детскому туризму РСТ
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="reviews">
-					<h2>Отзывы</h2>
-					<div class="reviews__main slider">
-						<div class="slider__slider">
-							<div class="slider__nav-btns">
-								<div class="slider__prev-btn _icon-long-arrow"></div>
-								<div class="slider__next-btn _icon-long-arrow"></div>
-							</div>
-							<div class="slider__swiper">
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat. Vestibulum vestibulum feugiat lacus, sit
-										amet consequat nunc ultricies
-										quis...
-									</p>
-									<a href="#" class="review-block__btn _icon-long-arrow">Читать все</a>
-								</div>
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat.
-									</p>
-								</div>
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit. Pellentesque nec
-										efficitur ipsum. Nullam id accumsan nunc. Donec ac rutrum massa. Aliquam erat volutpat.
-										Lorem ipsum dolor sit amet,
-										consectetur adipiscing elit. Pellentesque nec efficitur ipsum. Nullam id accumsan nunc.
-									</p>
-								</div>
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat. Vestibulum vestibulum feugiat lacus, sit
-										amet consequat nunc ultricies
-										quis...
-									</p>
-									<a href="#" class="review-block__btn _icon-long-arrow">Читать все</a>
-								</div>
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat.
-									</p>
-								</div>
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit. Pellentesque nec
-										efficitur ipsum. Nullam id accumsan nunc. Donec ac rutrum massa. Aliquam erat volutpat.
-										Lorem ipsum dolor sit amet,
-										consectetur adipiscing elit. Pellentesque nec efficitur ipsum. Nullam id accumsan nunc.
-									</p>
-								</div>
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat. Vestibulum vestibulum feugiat lacus, sit
-										amet consequat nunc ultricies
-										quis...
-									</p>
-									<a href="#" class="review-block__btn _icon-long-arrow">Читать все</a>
-								</div>
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat.
-									</p>
-								</div>
-								<div class="slider__slide review-block">
-									<div class="review-block__user-info">
-										<div class="review-block__img">
-											<picture><source srcset="img/profilePic.webp" type="image/webp"><img src="img/profilePic.jpg" alt="Profile Pic"></picture>
-										</div>
-										<div class="review-block__name-block">
-											<p class="review-block__name">Lorem ipsum dolor</p>
-											<p class="review-block__date">31 december 2024</p>
-										</div>
-									</div>
-									<p class="review-block__title">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-									</p>
-									<p class="review-block__text">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec efficitur ipsum.
-										Nullam id accumsan nunc.
-										Donec ac rutrum massa. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit. Pellentesque nec
-										efficitur ipsum. Nullam id accumsan nunc. Donec ac rutrum massa. Aliquam erat volutpat.
-										Lorem ipsum dolor sit amet,
-										consectetur adipiscing elit. Pellentesque nec efficitur ipsum. Nullam id accumsan nunc.
-									</p>
-								</div>
-							</div>
-							<div class="slider__pagination"></div>
-						</div>
-					</div>
-				</section>
-				<section class="news">
-					<h2>Новости</h2>
-					<div class="news__main slider slider--news">
-						<div class="slider--news__slider">
-							<div class="slider__nav-btns">
-								<div class="slider__prev-btn _icon-long-arrow"></div>
-								<div class="slider__next-btn _icon-long-arrow"></div>
-							</div>
-							<div class="slider--news__swiper">
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-								<a href="#" class="slider__slide news__slide">
-									<div class="news__img">
-										<picture><source srcset="img/placeholderImg.webp" type="image/webp"><img src="img/placeholderImg.png" alt="placeholder"></picture>
-									</div>
-									<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-								</a>
-							</div>
-							<div class="slider__pagination"></div>
-						</div>
-					</div>
-				</section>
 			</div>
-			<section class="questions">
+			<section class="questions questions--negative-margin">
 				<div class="questions__container">
 					<h2>
 						Остались вопросы? <br> Напишите нам!
@@ -625,96 +612,6 @@
 					</div>
 				</div>
 			</section>
-			<div class="page__container">
-				<section class="article article--margin-top">
-					<div data-showmore="items" class="article__wrapper">
-						<div data-showmore-content="3" class="article__content">
-							<h2>
-								Заголовок СЕО статьи h2
-							</h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat porta ex a porttitor.
-								Pellentesque accumsan sem
-								cursus erat accumsan, id iaculis felis consectetur. Integer at nibh odio. Nullam in posuere
-								odio.
-								Nullam posuere
-								ullamcorper elit sit amet pretium. Fusce porta velit tortor, a aliquet metus sollicitudin porta.
-								Nam cursus, massa ut
-								cursus accumsan, lectus dui scelerisque velit, eu placerat leo est sed libero.
-							</p>
-							<p>
-								<a href="#">Nam finibus ipsum</a> at enim aliquam vehicula eget at lacus. Etiam interdum massa
-								tempus rutrum
-								vehicula. Ut finibus velit
-								vitae vestibulum molestie. Aenean in placerat metus, vitae auctor enim. Integer vel dignissim
-								metus. Morbi arcu dui,
-								porta vitae dolor nec, finibus lobortis ante. Morbi imperdiet, ex sit amet auctor semper, sapien
-								nibh ornare metus, ut
-								commodo felis justo at enim. Morbi molestie mollis elit. Cras accumsan tincidunt est id
-								convallis.
-								Suspendisse potenti.
-								Nunc tortor ante, tincidunt ac ornare vel, dignissim a mauris. Sed vel vestibulum mi.
-							</p>
-							<h3>
-								Заголовок СЕО статьи 2 h3
-							</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat porta ex a porttitor.
-								Pellentesque accumsan sem
-								cursus erat accumsan, id iaculis felis consectetur. Integer at nibh odio. Nullam in posuere
-								odio.
-								Nullam posuere
-								ullamcorper elit sit amet pretium. Fusce porta velit tortor, a aliquet metus sollicitudin porta.
-								Nam cursus, massa ut
-								cursus accumsan, lectus dui scelerisque velit, eu placerat leo est sed libero.
-							</p>
-							<p>
-								Nam finibus ipsum at enim aliquam vehicula eget at lacus. Etiam interdum massa tempus rutrum
-								vehicula. Ut finibus velit
-								vitae vestibulum molestie. Aenean in placerat metus, vitae auctor enim. Integer vel dignissim
-								metus. Morbi arcu dui,
-								porta vitae dolor nec, finibus lobortis ante. Morbi imperdiet, ex sit amet auctor semper, sapien
-								nibh ornare metus, ut
-								commodo felis justo at enim. Morbi molestie mollis elit. Cras accumsan tincidunt est id
-								convallis.
-								Suspendisse potenti.
-								Nunc tortor ante, tincidunt ac ornare vel, dignissim a mauris. Sed vel vestibulum mi.
-							</p>
-							<h4>
-								Заголовок СЕО статьи 3 h4
-							</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat porta ex a porttitor.
-								Pellentesque accumsan sem
-								cursus erat accumsan, id iaculis felis consectetur. Integer at nibh odio. Nullam in posuere
-								odio.
-								Nullam posuere
-								ullamcorper elit sit amet pretium. Fusce porta velit tortor, a aliquet metus sollicitudin porta.
-								Nam cursus, massa ut
-								cursus accumsan, lectus dui scelerisque velit, eu placerat leo est sed libero.
-							</p>
-							<ul>
-								<li>Lorem ipsum dolor sit amet.</li>
-								<li>Laborum enim reprehenderit architecto unde?</li>
-								<li>Odio id asperiores voluptate. Impedit.</li>
-								<li>Amet nam earum temporibus debitis.</li>
-								<li>Aperiam libero asperiores at laboriosam.</li>
-							</ul>
-							<ol>
-								<li>Lorem ipsum dolor sit amet.</li>
-								<li>Obcaecati, illo. Ratione, maxime non!</li>
-								<li>Reiciendis quaerat quo asperiores doloribus?</li>
-								<li>Beatae ut ab repudiandae excepturi.</li>
-								<li>Dolorum, ipsam autem? Praesentium, fugiat!</li>
-							</ol>
-						</div>
-						<button data-showmore-button type="button" class="article__more">
-							<span class="_icon-long-arrow">Раскрыть</span>
-							<span class="_icon-long-arrow">Скрыть</span>
-						</button>
-					</div>
-				</section>
-			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
