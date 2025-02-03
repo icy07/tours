@@ -840,7 +840,6 @@ h4 {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   right: 1.375rem;
-  background-color: #fff;
 }
 
 .header__search-block span {
@@ -857,7 +856,8 @@ h4 {
 }
 
 .header__search-block._active {
-  width: calc(100% - 40px);
+  height: 100%;
+  width: 100%;
   right: 1.25rem;
 }
 
@@ -869,7 +869,7 @@ h4 {
 
 .header__search-block._active .header__search-btn {
   position: absolute;
-  left: 0;
+  left: 2.5rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -923,7 +923,7 @@ h4 {
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  width: calc(100% - 2.5rem);
+  width: calc(100% - 5rem);
   height: 3.25rem;
   right: 2.5rem;
   top: 50%;
@@ -1595,6 +1595,8 @@ h4 {
   font-size: 1.5rem;
   line-height: 1.3333333333;
   margin: 0px 0px 0.75rem 0px;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 .card__text {
@@ -1718,6 +1720,18 @@ h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.official__card--img {
+  padding: 0;
+  overflow: hidden;
+}
+
+.official__card--img>img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .official__img {
@@ -4481,6 +4495,10 @@ h4 {
   }
 
   .about__text-block a:hover {
+    color: #ff531c;
+  }
+
+  .card__title:hover {
     color: #ff531c;
   }
 
