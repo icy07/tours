@@ -2541,7 +2541,7 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 1.25rem;
+  gap: 1.875rem;
   margin-bottom: 6.25rem;
 }
 
@@ -3514,6 +3514,7 @@ h4 {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    gap: 1.25rem;
   }
 
   .item__sliders {
